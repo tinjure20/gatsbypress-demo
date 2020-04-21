@@ -1,0 +1,20 @@
+/* src/styless/footer.css */
+.footer-area {
+	background: hsla(0, 0%, 0% 0.9); 
+	margin: 0;
+	border-top: 1px solid #c5c5c5;
+  }
+  .footer-text {
+	padding: 0.5em;
+	color: #414141;
+	font-size: 80%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+	 .footer-text {
+	   margin: 0 auto;
+	   max-width: 700px;
+		 text-align: center;
+		 font-size: 80%;
+	 }
+  }
